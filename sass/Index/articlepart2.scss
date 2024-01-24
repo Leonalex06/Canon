@@ -1,0 +1,91 @@
+.partII { 
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    
+}
+
+.artII  {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    display: grid;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.txt2 { 
+    display: grid;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 1.7em;
+    padding-bottom: 70px;
+    font-family: 'Kaisei Opti', serif;
+    font-weight: 900;
+    color: #fff;
+
+}
+
+.containerxp { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+
+    .image4kI { 
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 100px;
+        margin-left: 80px;
+
+        p{ padding: 30px;
+            color: #bfbfbf;}
+
+
+
+        .imgI { 
+            border-radius: 50px;
+            width: 700px;
+            filter: drop-shadow(10px 10px 14px #000);
+            
+        }
+    }
+
+
+    .imagebq { 
+        display: grid;
+       grid-column-start: 2;
+       grid-column-end: 3;
+        width: 100px;
+         ;
+
+        
+
+        p{ padding: 30px;
+        color: #bfbfbf;}
+
+
+
+        .imgbq { 
+            
+            border-radius: 50px;
+            width: 750px;
+            filter: drop-shadow(12px 12px 14px #000);
+           
+            
+        }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}

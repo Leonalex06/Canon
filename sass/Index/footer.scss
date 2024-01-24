@@ -1,0 +1,65 @@
+.footer { 
+    background-color: #242424;
+    color: #949494;
+
+}
+.box { 
+    grid-column: 2/3;
+}
+
+
+
+.group1   {
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+
+}
+
+.box1 { 
+    display: grid;
+    align-content: start;
+    
+    
+    
+}
+
+.box1 .h44 { 
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+
+
+
+}
+
+.box1 .redes 
+{ 
+    display: flex;
+    gap: 20px; 
+   justify-content: center;
+
+    
+
+    
+}
+
+
+.grupo2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.ima { 
+    width: 30px;
+}
+
+.footer { 
+    padding: 20px;
+}

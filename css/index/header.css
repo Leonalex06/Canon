@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+body {
+  font-family: "Onest", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  display: grid;
+  max-height: 1000px;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  grid-template-rows: max-content 1fr;
+  grid-template-areas: "menu" "content";
+  /* HEADER CONTENT */
+}
+.header .navbar {
+  grid-area: menu;
+  display: grid;
+  justify-content: space-between;
+  grid-auto-flow: column;
+  align-items: center;
+  height: 90px;
+}
+.header .navbar .logo {
+  font-size: 2.3em;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Kaisei Opti", serif;
+  letter-spacing: 1px;
+  margin-left: 40px;
+}
+.header .navbar .list {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  gap: 5em;
+  margin-right: 40px;
+}
+.header .navbar .links {
+  color: #a8a8a8;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.header .navbar .buy {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 100;
+  border: solid #fff 1.5px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.header .navbar .menu {
+  display: none;
+}
+.header .navbar .menu .icon {
+  width: 30px;
+}
+.header .main {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header .main .txt {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  justify-content: start;
+  align-items: start;
+  align-content: start;
+  gap: 20px;
+  color: #fff;
+}
+.header .main .title {
+  font-size: 4em;
+  font-weight: 700;
+  margin-left: 80px;
+}
+.header .main .title span {
+  font-family: "Kaisei Opti", serif;
+  font-size: 1em;
+  font-weight: 800;
+}
+.header .main .para {
+  font-size: 1.7em;
+  margin-left: 80px;
+  font-weight: 300;
+  color: #b3b3b3;
+}
+.header .main .cta1 {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6em;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-weight: 500;
+  border: solid #fff 2px;
+  padding: 10px;
+  border-radius: 16px;
+}
+.header .main .cta1:hover {
+  background-color: #fff;
+  color: #000;
+}
+.header .main .imagback {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.header .main .backimg {
+  width: 1000px;
+  position: relative;
+  bottom: 290px;
+  left: 110px;
+  filter: drop-shadow(1px 15px 27px #000);
+}
+.header .main .model_container {
+  display: grid;
+  justify-content: right;
+  align-content: start;
+  position: relative;
+  top: 280px;
+  left: 30px;
+  gap: 8px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.header .main .model {
+  display: flex;
+  flex-direction: column;
+  color: #9f9c9c;
+  border: solid #979797 2px;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+}
+.header .main .speclist {
+  font-size: 0.5em;
+}
+.header .main .cam_model {
+  font-size: 1em;
+  line-height: 40px;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,62 @@
+.partII {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+}
+
+.artII {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  display: grid;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.txt2 {
+  display: grid;
+  justify-content: center;
+  margin-top: 120px;
+  font-size: 1.7em;
+  padding-bottom: 70px;
+  font-family: "Kaisei Opti", serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.containerxp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.containerxp .image4kI {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100px;
+  margin-left: 80px;
+}
+.containerxp .image4kI p {
+  padding: 30px;
+  color: #bfbfbf;
+}
+.containerxp .image4kI .imgI {
+  border-radius: 50px;
+  width: 700px;
+  filter: drop-shadow(10px 10px 14px #000);
+}
+.containerxp .imagebq {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100px;
+}
+.containerxp .imagebq p {
+  padding: 30px;
+  color: #bfbfbf;
+}
+.containerxp .imagebq .imgbq {
+  border-radius: 50px;
+  width: 750px;
+  filter: drop-shadow(12px 12px 14px #000);
+}
+
+/*# sourceMappingURL=articlepart2.css.map */
